@@ -4,18 +4,11 @@ import { Canvas } from '@react-three/fiber';
 import * as THREE from 'three'
 import Test from "./homeCar";
 
-
-
-
-
-
-
 const Home = () =>{
 
     const created = ({ scene }) =>{
     scene.background = new THREE.Color('black')
 }
-   
     return(
 <div>
     <div className="h-screen w-screen text-white overflow-y-hidden bg-black">
