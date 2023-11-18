@@ -8,8 +8,8 @@ dotenv.config();
 import { Strategy as GoogleStrategy } from "passport-google-oauth20";
 import passport from 'passport';
 //*****************************************************************************/
-const saltRounds = 10;
-const sPhrase = 'RideOrDie';
+const saltRounds = :);
+const sPhrase =  :);
 //*****************************************************************************/
 const createToken = (_id) =>{
 
